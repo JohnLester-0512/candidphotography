@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>CandidShot Camera Store & Rentals</title>
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>CandidShot</h1>
+
+    <nav>
+      <a href="#home">Home</a>
+      <a href="#cameras">Cameras</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="home">
+    <div class="hero-content">
+      <h2>Capture Every Candid Moment</h2>
+
+      <p>
+        Buy premium cameras or rent professional gear
+        for your next photography adventure.
+      </p>
+
+      <a href="#cameras" class="btn">Explore Cameras</a>
+    </div>
+  </section>
+
+  <section id="cameras">
+    <h2 class="section-title">Featured Cameras</h2>
+
+    <div class="camera-grid">
+
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1512790182412-b19e6d62bc39?q=80&w=1200&auto=format&fit=crop"
+          alt="Canon Camera"
+        >
+
+        <div class="card-content">
+          <h3>Canon EOS R5</h3>
+          <p class="price">$120 / Day Rental</p>
+
+          <button
+            class="rent-btn"
+            onclick="rentCamera('Canon EOS R5')"
+          >
+            Rent Now
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1516035069371-29a1b244cc32?q=80&w=1200&auto=format&fit=crop"
+          alt="Sony Camera"
+        >
+
+        <div class="card-content">
+          <h3>Sony Alpha A7 III</h3>
+          <p class="price">$100 / Day Rental</p>
+
+          <button
+            class="rent-btn"
+            onclick="rentCamera('Sony Alpha A7 III')"
+          >
+            Rent Now
+          </button>
+        </div>
+      </div>
+
+      <div class="card">
+        <img
+          src="https://images.unsplash.com/photo-1495707902641-75cac588d2e9?q=80&w=1200&auto=format&fit=crop"
+          alt="Nikon Camera"
+        >
+
+        <div class="card-content">
+          <h3>Nikon Z6</h3>
+          <p class="price">$90 / Day Rental</p>
+
+          <button
+            class="rent-btn"
+            onclick="rentCamera('Nikon Z6')"
+          >
+            Rent Now
+          </button>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <section class="about" id="about">
+    <h2 class="section-title">About Us</h2>
+
+    <p>
+      CandidShot is a modern photography gear store offering camera sales,
+      rentals, and professional photography services.
+      Whether you're a beginner photographer or a seasoned professional,
+      we provide high-quality cameras and accessories to help you
+      capture unforgettable moments.
+    </p>
+  </section>
+
+  <section class="contact" id="contact">
+    <h2 class="section-title">Contact Us</h2>
+
+    <form id="contactForm">
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Your Email" required />
+      <textarea rows="5" placeholder="Your Message"></textarea>
+
+      <button type="submit" class="btn">
+        Send Message
+      </button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2026 CandidShot Photography | Camera Sales & Rentals</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
