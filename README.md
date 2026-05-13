@@ -1,2 +1,1 @@
-# candidphotography
-camera shop &amp; rental
+Camera Shop & Rental
